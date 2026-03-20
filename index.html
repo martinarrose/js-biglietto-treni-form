@@ -6,9 +6,29 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="script.js"></script>
-    <input type="text" name="" id="" />
-    <input type="number" name="" id="" />
-    <input type="text" name="" id="" />
+    <form action="">
+      <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+      <div>
+        <label for="inputName">inserisci nome e cognome</label>
+        <input
+          type="text"
+          name="Name"
+          placeholder="Nome e cognome"
+          id="inputName"
+        />
+        <label for="inputAge"> inserisci l'età </label>
+        <input type="number" name="age" placeholder="età" id="inputAge" />
+        <label for="inputKm"> inserisci i chilometri da percorrere</label>
+        <input
+          type="number"
+          name="km"
+          placeholder="km da percorrrere"
+          id="inputKm"
+        />
+        <button id="buttonCalculate" type="submit">calcola</button>
+        <button id="buttonCancel" type="reset">annulla</button>
+      </div>
+    </form>
+    <script src="main.js"></script>
   </body>
 </html>

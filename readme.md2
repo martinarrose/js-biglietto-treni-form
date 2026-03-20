@@ -1,4 +1,4 @@
-const inputKmElement = document.getElementById("inputKm");
+/*const inputKmElement = document.getElementById("inputKm");
 const inputAgeElement = document.getElementById("inputAge");
 const inputBtnElement = document.getElementById("btnCalculate");
 const ticketPriceElement = document.getElementById("ticketPrice");
@@ -30,4 +30,4 @@ const onButtonClicked = (event) => {
 
 inputBtnElement.addEventListener("click", onButtonClicked);
 
-// :(
+// :( */
