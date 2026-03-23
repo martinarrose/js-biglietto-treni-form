@@ -24,5 +24,8 @@ const onButtonClicked = (Event) => {
   );
   console.log(calculatedPrice);
   Event.preventDefault();
+
+  const ticketElement = document.getElementById("ticket");
+  ticketElement.style.display = "block";
 };
 buttonCalculateElement.addEventListener("click", onButtonClicked);
